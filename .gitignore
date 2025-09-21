@@ -1,0 +1,37 @@
+# General
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# Build artifacts (do NOT commit compiled firmware)
+/build/
+bin/
+Debug/
+Release/
+*.elf
+*.o
+*.map
+*.hex
+*.bin
+
+# STM32CubeIDE / Eclipse
+.settings/
+.cproject
+.project
+*.launch
+
+# TouchGFX (generated/build directories)
+touchgfx/generated/
+touchgfx/gui_generated/
+touchgfx/build/
+
+# GUI IDE artifacts
+node_modules/
+__pycache__/
+dist/
+*.class
+
+# OS / editor
+.vs/
+.idea/
