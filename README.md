@@ -29,12 +29,12 @@ The combination of these components demonstrates a complete workflow for embedde
 ---
 
 ## Project Structure
-bootloader/ # STM32 bootloader code
-application/ # Main application code
-gui/ # GUI source code
-touchgfx/ # TouchGFX project files
-binaries/ # Firmware binaries
-README.md # Project documentation
+- bootloader/ # STM32 bootloader code
+- application/ # Main application code
+- gui/ # GUI source code
+- touchgfx/ # TouchGFX project files
+- binaries/ # Firmware binaries
+- README.md # Project documentation
 
 ---
 
